@@ -6,6 +6,23 @@ All notable changes to the "Fancy Text Neo-Brutalism" extension will be document
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2024-10-25
+
+### 🎨 Improved Marketplace Icon & Visual Quality
+
+#### 🖼️ Icon Improvements
+- **New Marketplace Icon**: High-quality 128x128px SVG icon for better marketplace visibility
+- **Neo-Brutalism Design**: Bold borders, colorful elements, and clear typography
+- **Multi-style Preview**: Shows different Unicode transformations (𝐀, 𝐴, 𝓐, 𝔸)
+- **Preserved Sidebar Icon**: Kept original `icon.svg` for Activity Bar integration
+- **Enhanced Clarity**: Fixes blurry marketplace icon issue
+
+#### 🎯 Visual Elements
+- **Color Scheme**: Orange (#FF6B35), Cyan (#00D9FF), Yellow (#FFD23F), Purple (#7B68EE)
+- **Bold Typography**: Clear demonstration of text transformation capabilities
+- **Professional Presentation**: Sharp, high-contrast design for marketplace appeal
+- **Scalable Format**: SVG ensures crisp display at all sizes
+
 ## [1.1.0] - 2024-10-25
 
 ### 🎨 Enhanced Documentation & Visual Appeal

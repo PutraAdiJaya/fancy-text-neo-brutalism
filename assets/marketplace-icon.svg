@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Neo-Brutalism style -->
+  <rect width="128" height="128" fill="#2D1B69" rx="8"/>
+  <rect x="4" y="4" width="120" height="120" fill="#FF6B35" rx="4"/>
+  <rect x="8" y="8" width="112" height="112" fill="#1a1a1a" rx="0"/>
+  
+  <!-- Main text styling icon -->
+  <g transform="translate(16, 20)">
+    <!-- Letter A in different styles -->
+    <text x="8" y="24" font-family="serif" font-size="20" font-weight="bold" fill="#FF6B35">𝐀</text>
+    <text x="32" y="24" font-family="serif" font-size="20" font-style="italic" fill="#00D9FF">𝐴</text>
+    <text x="56" y="24" font-family="serif" font-size="20" font-weight="bold" fill="#FFD23F">𝓐</text>
+    <text x="80" y="24" font-family="serif" font-size="20" fill="#7B68EE">𝔸</text>
+    
+    <!-- Decorative elements -->
+    <rect x="4" y="32" width="88" height="3" fill="#FF6B35" rx="1"/>
+    
+    <!-- Sample text transformations -->
+    <text x="8" y="52" font-family="monospace" font-size="12" fill="#00D9FF">Hello → 𝐇𝐞𝐥𝐥𝐨</text>
+    <text x="8" y="68" font-family="monospace" font-size="12" fill="#FFD23F">World → 𝓦𝓸𝓻𝓵𝓭</text>
+    <text x="8" y="84" font-family="monospace" font-size="12" fill="#7B68EE">Text → 【T】【e】【x】【t】</text>
+  </g>
+  
+  <!-- Neo-Brutalism border effect -->
+  <rect x="0" y="0" width="128" height="128" fill="none" stroke="#000" stroke-width="3" rx="8"/>
+  <rect x="4" y="4" width="120" height="120" fill="none" stroke="#FF6B35" stroke-width="2" rx="4"/>
+</svg>
