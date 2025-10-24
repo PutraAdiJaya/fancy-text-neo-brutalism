@@ -3,7 +3,7 @@
   "id": "fancy-text-neo-brutalism",
   "displayName": "Fancy Text Neo-Brutalism",
   "description": "🎨 Transform plain text into 38+ stylish Unicode variants with bold Neo-Brutalism design! Math fonts, decorative text, creative styles. One-click copy & insert.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "PutraAdiJaya",
   "engines": {
     "vscode": "^1.92.0"

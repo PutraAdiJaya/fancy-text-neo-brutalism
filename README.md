@@ -1,121 +1,66 @@
+<div align="center">
+
 # 🎨✨ Fancy Text Neo-Brutalism
 
-<div align="center">
+**Transform Plain Text into Stylish Unicode • 38+ Variants • Neo-Brutalism Design**
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/PutraAdiJaya.fancy-text-neo-brutalism?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=FF6B35&labelColor=1a1a1a)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
-[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/PutraAdiJaya.fancy-text-neo-brutalism?style=for-the-badge&logo=download&logoColor=white&color=00D9FF&labelColor=1a1a1a)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/PutraAdiJaya.fancy-text-neo-brutalism?style=for-the-badge&logo=star&logoColor=white&color=FFD23F&labelColor=1a1a1a)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
-[![GitHub](https://img.shields.io/github/license/PutraAdiJaya/fancy-text-neo-brutalism?style=for-the-badge&color=7B68EE&labelColor=1a1a1a)](https://github.com/PutraAdiJaya/fancy-text-neo-brutalism/blob/main/LICENSE)
-
-</div>
-
-<div align="center">
-
-# 🚀 **Transform Plain Text into**
-
-# **𝕊𝕋𝕐𝕃𝕀𝕊ℍ 𝕌ℕ𝕀ℂ𝕆𝔻𝔼** ✨
-
-### **38+ Unicode Styles • Neo-Brutalism Design • One-Click Magic**
+[![Version](https://img.shields.io/visual-studio-marketplace/v/PutraAdiJaya.fancy-text-neo-brutalism?style=flat-square&logo=visual-studio-code&logoColor=white&color=007ACC&labelColor=2C2C32)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/PutraAdiJaya.fancy-text-neo-brutalism?style=flat-square&logo=microsoft&logoColor=white&color=00BCF2&labelColor=2C2C32)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
+[![Rating](https://img.shields.io/visual-studio-marketplace/stars/PutraAdiJaya.fancy-text-neo-brutalism?style=flat-square&logo=visualstudiocode&logoColor=white&color=FFD700&labelColor=2C2C32)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
+[![License](https://img.shields.io/github/license/PutraAdiJaya/fancy-text-styler-sidebar?style=flat-square&color=green&labelColor=2C2C32)](https://github.com/PutraAdiJaya/fancy-text-styler-sidebar/blob/main/LICENSE)
 
 </div>
+
+## 🚀 Transform Plain Text into **𝕊𝕋𝕐𝕃𝕀𝕊ℍ 𝕌ℕ𝕀ℂ𝕆𝔻𝔼** ✨
+
+**38+ Unicode Styles • Neo-Brutalism Design • One-Click Magic**
 
 ---
 
-<div align="center">
+## 🎭 Live Style Preview
 
-## 🎭 **LIVE PREVIEW** 🎭
+### Input: `Hello World`
 
-</div>
+| Style Category | Example Output | Description |
+|---|---|---|
+| **Mathematical** | **𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝** | Math Bold |
+| | *𝐻𝑒𝑙𝑙𝑜 𝑊𝑜𝑟𝑙𝑑* | Math Italic |
+| | 𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭 | Script |
+| | 𝔥𝔢𝔩𝔩𝔬 𝔴𝔬𝔯𝔩𝔡 | Fraktur |
+| **Sans-Serif** | 𝗛𝗲𝗹𝗹𝗼 𝗪𝗼𝗿𝗹𝗱 | Sans Bold |
+| | 𝙷𝚎𝚕𝚕𝚘 𝚆𝚘𝚛𝚕𝚍 | Monospace |
+| **Special Effects** | Ｈｅｌｌｏ　Ｗｏｒｌｄ | Fullwidth |
+| | ʜᴇʟʟᴏ ᴡᴏʀʟᴅ | Small Caps |
+| | ᴴᵉˡˡᵒ ᵂᵒʳˡᵈ | Superscript |
+| | ₕₑₗₗₒ wₒᵣₗd | Subscript |
+| **Creative** | plɹoM ollǝH | Upside Down |
+| | H̶e̶l̶l̶o̶ ̶W̶o̶r̶l̶d̶ | Strike Through |
+| | 【H】【e】【l】【l】【o】【W】【o】【r】【l】【d】 | Box Each |
+| **Decorative** | 🍰 🎀 Hello World 🎀 🍰 | Cake Wrapper |
+| | ✨ ⋆ 🌟 Hello World 🌟 ⋆ ✨ | Sparkle |
 
-<table align="center">
-<tr>
-<td align="center"><strong>🎯 INPUT</strong></td>
-<td align="center"><strong>🎨 OUTPUT EXAMPLES</strong></td>
-</tr>
-<tr>
-<td align="center">
+## 🎪 Neo-Brutalism Design Philosophy
 
-```
-Hello World
-```
+**Modern • Bold • Functional • Trendy**
 
-</td>
-<td align="left">
-
-**𝐇𝐞𝐥𝐥𝐨 𝐖𝐨𝐫𝐥𝐝** ← Math Bold<br>
-*𝐻𝑒𝑙𝑙𝑜 𝑊𝑜𝑟𝑙𝑑* ← Math Italic<br>
-𝓗𝓮𝓵𝓵𝓸 𝓦𝓸𝓻𝓵𝓭 ← Script<br>
-𝔥𝔢𝔩𝔩𝔬 𝔴𝔬𝔯𝔩𝔡 ← Fraktur<br>
-𝗛𝗲𝗹𝗹𝗼 𝗪𝗼𝗿𝗹𝗱 ← Sans Bold<br>
-𝙷𝚎𝚕𝚕𝚘 𝚆𝚘𝚛𝚕𝚍 ← Monospace<br>
-Ｈｅｌｌｏ　Ｗｏｒｌｄ ← Fullwidth<br>
-ʜᴇʟʟᴏ ᴡᴏʀʟᴅ ← Small Caps<br>
-ᴴᵉˡˡᵒ ᵂᵒʳˡᵈ ← Superscript<br>
-ₕₑₗₗₒ wₒᵣₗd ← Subscript<br>
-plɹoM ollǝH ← Upside Down<br>
-H̶e̶l̶l̶o̶ ̶W̶o̶r̶l̶d̶ ← Strike<br>
-H̲e̲l̲l̲o̲ ̲W̲o̲r̲l̲d̲ ← Underline<br>
-【H】【e】【l】【l】【o】【 】【W】【o】【r】【l】【d】 ← Box Each<br>
-🍰 � Helleo World 🎀 🍰 ← Cake Wrapper<br>
-✨ ⋆ 🌟 Hello World 🌟 ⋆ ✨ ← Sparkle<br>
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-## 🎪 **NEO-BRUTALISM DESIGN** 🎪
-
-**Bold Borders • Sharp Corners • Offset Shadows • Pop Animations**
-
-</div>
+- **Bold 3px Borders** - Sharp, defined edges for maximum impact
+- **Zero Border Radius** - Perfect sharp corners following brutalist principles  
+- **Offset Drop Shadows** - 4px offset shadows for depth and dimension
+- **Pop Animations** - Interactive hover and click effects
+- **High Contrast Colors** - Professional dark theme with vibrant accents
 
 ---
 
 Transform your boring plain text into **38+ stunning Unicode variants** with the most stylish VS Code extension ever created! Featuring a bold **Neo-Brutalism design** that makes text transformation feel like magic ✨
 
-<div align="center">
 
-## 🔥 **MOCK EXTENSION PREVIEW** 🔥
+### Professional Interface Features
 
-</div>
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  🎨 FANCY TEXT NEO-BRUTALISM                                    │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐    │
-│  │ Type your text here...                                  │    │
-│  │ Made with ❤️ by Mas Putra                              │    │
-│  └─────────────────────────────────────────────────────────┘    │
-│                                                                 │
-│  [Generate] [Clear] [Insert ▶]                                 │
-│                                                                 │
-│  ╔═══════════════════════════════════════════════════════════╗  │
-│  ║ 𝐌𝐚𝐝𝐞 𝐰𝐢𝐭𝐡 ❤️ 𝐛𝐲 𝐌𝐚𝐬 𝐏𝐮𝐭𝐫𝐚                      ║  │
-│  ║ Math Bold                              [Copy] [Insert]  ║  │
-│  ╚═══════════════════════════════════════════════════════════╝  │
-│                                                                 │
-│  ╔═══════════════════════════════════════════════════════════╗  │
-│  ║ 𝑀𝑎𝑑𝑒 𝑤𝑖𝑡ℎ ❤️ 𝑏𝑦 𝑀𝑎𝑠 𝑃𝑢𝑡𝑟𝑎                      ║  │
-│  ║ Math Italic                            [Copy] [Insert]  ║  │
-│  ╚═══════════════════════════════════════════════════════════╝  │
-│                                                                 │
-│  ╔═══════════════════════════════════════════════════════════╗  │
-│  ║ 𝓜𝓪𝓭𝓮 𝔀𝓲𝓽𝓱 ❤️ 𝓫𝔂 𝓜𝓪𝓼 𝓟𝓾𝓽𝓻𝓪                      ║  │
-│  ║ Script                                 [Copy] [Insert]  ║  │
-│  ╚═══════════════════════════════════════════════════════════╝  │
-│                                                                 │
-│  ╔═══════════════════════════════════════════════════════════╗  │
-│  ║ 🍰 🎀 Made with ❤️ by Mas Putra 🎀 🍰                   ║  │
-│  ║ Cake Wrapper                           [Copy] [Insert]  ║  │
-│  ╚═══════════════════════════════════════════════════════════╝  │
-│                                                                 │
-│  Click an item to Copy. Use Insert to send to editor.          │
-└─────────────────────────────────────────────────────────────────┘
-```
+- 🎯 **Clean Input Field** - Type or paste your text with live preview
+- ⚡ **Instant Generation** - Real-time transformation as you type  
+- 🎨 **38+ Style Variants** - Mathematical, decorative, and special effects
+- 📋 **One-Click Actions** - Copy to clipboard or insert directly to editor
+- � **Neoa-Brutalism Design** - Bold borders, sharp corners, modern aesthetics
 
 ## ✨ Features
 
@@ -337,7 +282,7 @@ We welcome contributions! Here's how you can help:
 
 ### 🐛 **Report Bugs**
 
-- Open an issue on [GitHub](https://github.com/PutraAdiJaya/fancy-text-neo-brutalism/issues)
+- Open an issue on [GitHub](https://github.com/PutraAdiJaya/fancy-text-styler-sidebar/issues)
 - Include VS Code version, OS, and steps to reproduce
 
 ### 💡 **Suggest Features**
@@ -361,9 +306,9 @@ We welcome contributions! Here's how you can help:
 ## 🔗 Links
 
 - **🏪 Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
-- **📚 GitHub**: [Source Code](https://github.com/PutraAdiJaya/fancy-text-neo-brutalism)
-- **🐛 Issues**: [Bug Reports](https://github.com/PutraAdiJaya/fancy-text-neo-brutalism/issues)
-- **💬 Discussions**: [Community](https://github.com/PutraAdiJaya/fancy-text-neo-brutalism/discussions)
+- **📚 GitHub**: [Source Code](https://github.com/PutraAdiJaya/fancy-text-styler-sidebar)
+- **🐛 Issues**: [Bug Reports](https://github.com/PutraAdiJaya/fancy-text-styler-sidebar/issues)
+- **💬 Discussions**: [Community](https://github.com/PutraAdiJaya/fancy-text-styler-sidebar/discussions)
 
 ## 📄 License
 
