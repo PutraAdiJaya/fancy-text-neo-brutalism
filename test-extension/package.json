@@ -1,0 +1,39 @@
+{
+  "name": "test-webview-view",
+  "displayName": "Test Webview View",
+  "description": "A minimal test extension for webview views",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:test-view"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "test-container",
+          "title": "Test View",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "test-container": [
+        {
+          "id": "test-view",
+          "name": "Test"
+        }
+      ]
+    }
+  },
+  "main": "./extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/test/test-webview-view.git"
+  }
+}

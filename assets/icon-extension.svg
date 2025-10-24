@@ -1,0 +1,97 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Aurora gradient background -->
+    <radialGradient id="aurora1" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#EC4899;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#2D1B69;stop-opacity:1" />
+    </radialGradient>
+    
+    <radialGradient id="aurora2" cx="70%" cy="70%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </radialGradient>
+    
+    <linearGradient id="wand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBBF24;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="star" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FBBF24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A78BFA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C084FC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E879F9;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background with aurora effect -->
+  <rect width="512" height="512" rx="128" fill="url(#aurora1)"/>
+  <circle cx="380" cy="380" r="280" fill="url(#aurora2)" opacity="0.7"/>
+  
+  <!-- Magic wand -->
+  <g filter="url(#glow)">
+    <path d="M120 420L280 260" stroke="url(#wand)" stroke-width="28" stroke-linecap="round"/>
+    <circle cx="280" cy="260" r="22" fill="url(#star)"/>
+  </g>
+  
+  <!-- Main star with glow -->
+  <g filter="url(#glow-strong)">
+    <path d="M320 180L340 130L360 180L410 200L360 220L340 270L320 220L270 200Z" 
+          fill="url(#star)" stroke="#FEF3C7" stroke-width="4"/>
+  </g>
+  
+  <!-- Small sparkle stars -->
+  <g filter="url(#glow)">
+    <path d="M430 120L440 95L450 120L475 130L450 140L440 165L430 140L405 130Z" 
+          fill="url(#star)"/>
+    <path d="M220 80L230 60L240 80L260 90L240 100L230 120L220 100L200 90Z" 
+          fill="url(#star)"/>
+    <path d="M390 300L398 285L406 300L421 308L406 316L398 331L390 316L375 308Z" 
+          fill="#06B6D4"/>
+  </g>
+  
+  <!-- Decorative sparkles -->
+  <circle cx="380" cy="230" r="12" fill="#FCD34D" filter="url(#glow)"/>
+  <circle cx="290" cy="340" r="10" fill="#C084FC" filter="url(#glow)"/>
+  <circle cx="180" cy="200" r="8" fill="#60A5FA" filter="url(#glow)"/>
+  <circle cx="140" cy="320" r="10" fill="#F472B6" filter="url(#glow)"/>
+  
+  <!-- Stylized letter 'A' for text styling -->
+  <g filter="url(#glow)">
+    <path d="M150 380L200 240L250 380M165 340H235" 
+          stroke="url(#text)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Curved text effect lines -->
+  <g opacity="0.6">
+    <path d="M320 420C340 400 360 400 380 420" stroke="url(#text)" stroke-width="12" 
+          stroke-linecap="round" fill="none"/>
+    <path d="M300 450C325 435 355 435 380 450" stroke="url(#text)" stroke-width="10" 
+          stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

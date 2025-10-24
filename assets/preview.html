@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Icon Preview - Fancy Text Neo-Brutalism</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
+    .container {
+      max-width: 1200px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+      background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F59E0B 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid transparent;
+      background: 
+        linear-gradient(rgba(30, 27, 75, 0.8), rgba(30, 27, 75, 0.8)) padding-box,
+        linear-gradient(135deg, 
+          rgba(139, 92, 246, 0.6) 0%, 
+          rgba(236, 72, 153, 0.6) 50%, 
+          rgba(6, 182, 212, 0.6) 100%
+        ) border-box;
+      border-radius: 20px;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(139, 92, 246, 0.25);
+      transition: all 0.4s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 12px 40px rgba(139, 92, 246, 0.4);
+    }
+    .icon-display {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+    }
+    .card h2 {
+      color: white;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #8B5CF6, #EC4899);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+    .features {
+      margin-top: 3rem;
+      text-align: center;
+      color: white;
+    }
+    .features h3 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      background: linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .feature-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .feature-item {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      border-radius: 15px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    .feature-item:hover {
+      background: rgba(139, 92, 246, 0.1);
+      border-color: rgba(139, 92, 246, 0.6);
+      transform: translateY(-5px);
+    }
+    .feature-item h4 {
+      color: #EC4899;
+      margin-bottom: 0.5rem;
+    }
+    .feature-item p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.85rem;
+    }
+    .note {
+      background: rgba(245, 158, 11, 0.1);
+      border: 2px solid rgba(245, 158, 11, 0.3);
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin-top: 3rem;
+      color: #FCD34D;
+      text-align: center;
+    }
+    .note strong {
+      color: #FBBF24;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Fancy Text Neo-Brutalism Icons ✨</h1>
+    
+    <div class="grid">
+      <!-- Sidebar Icon -->
+      <div class="card">
+        <h2>🎯 Sidebar Icon</h2>
+        <div class="icon-display">
+          <img src="icon.svg" alt="Sidebar Icon" style="width: 120px; height: 120px;">
+        </div>
+        <p>Magic wand dengan gradient purple-pink-orange. Digunakan di VSCode activity bar sidebar.</p>
+        <span class="badge">24x24px</span>
+      </div>
+      
+      <!-- Extension Icon -->
+      <div class="card">
+        <h2>🚀 Extension Icon</h2>
+        <div class="icon-display">
+          <img src="icon-extension.svg" alt="Extension Icon" style="width: 200px; height: 200px;">
+        </div>
+        <p>Aurora gradient background dengan glow effects. Icon utama extension di marketplace.</p>
+        <span class="badge">512x512px</span>
+      </div>
+    </div>
+    
+    <div class="features">
+      <h3>🎨 Visual Enhancements Implemented</h3>
+      
+      <div class="feature-list">
+        <div class="feature-item">
+          <h4>✨ Aurora Gradients</h4>
+          <p>Purple → Pink → Orange → Cyan transitions</p>
+        </div>
+        
+        <div class="feature-item">
+          <h4>💫 Glow Effects</h4>
+          <p>Soft shadows & luminous hover states</p>
+        </div>
+        
+        <div class="feature-item">
+          <h4>🎯 Gradient Borders</h4>
+          <p>Multi-color animated border effects</p>
+        </div>
+        
+        <div class="feature-item">
+          <h4>🌊 Smooth Animations</h4>
+          <p>Butter-smooth transitions & transforms</p>
+        </div>
+        
+        <div class="feature-item">
+          <h4>⚡ Hover Effects</h4>
+          <p>Shine, ripple, & scale animations</p>
+        </div>
+        
+        <div class="feature-item">
+          <h4>🎭 Modern Design</h4>
+          <p>Neo-brutalism meets aurora aesthetics</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="note">
+      <strong>📝 Next Step:</strong> Convert <code>icon-extension.svg</code> to <code>icon.png</code> (512x512px)<br>
+      Gunakan online tool: <a href="https://cloudconvert.com/svg-to-png" target="_blank" style="color: #FBBF24; text-decoration: underline;">cloudconvert.com</a> atau lihat <code>README-ICONS.md</code> untuk cara lainnya.
+    </div>
+  </div>
+</body>
+</html>

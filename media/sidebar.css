@@ -1,0 +1,211 @@
+
+:root { 
+  --gap: 12px;
+  --aurora-1: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(236, 72, 153, 0.15) 50%, rgba(245, 158, 11, 0.15) 100%);
+  --aurora-2: linear-gradient(225deg, rgba(6, 182, 212, 0.12) 0%, rgba(59, 130, 246, 0.12) 100%);
+  --card-glow: 0 4px 20px rgba(139, 92, 246, 0.15), 0 0 40px rgba(236, 72, 153, 0.08);
+  --card-hover-glow: 0 8px 30px rgba(139, 92, 246, 0.25), 0 0 60px rgba(236, 72, 153, 0.15);
+}
+
+body { 
+  margin: 0; 
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji"; 
+  background: var(--vscode-editor-background);
+}
+
+.wrap { 
+  padding: 12px; 
+  display: grid; 
+  gap: var(--gap); 
+}
+
+h2 { 
+  margin: 0; 
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F59E0B 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+textarea#src { 
+  width: 100%; 
+  min-height: 70px; 
+  resize: vertical; 
+  padding: 12px; 
+  border-radius: 12px; 
+  border: 2px solid transparent;
+  background: linear-gradient(var(--vscode-input-background), var(--vscode-input-background)) padding-box,
+              linear-gradient(135deg, rgba(139, 92, 246, 0.3), rgba(236, 72, 153, 0.3)) border-box;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+textarea#src:focus {
+  outline: none;
+  border-color: transparent;
+  background: linear-gradient(var(--vscode-input-background), var(--vscode-input-background)) padding-box,
+              linear-gradient(135deg, #8B5CF6, #EC4899, #F59E0B) border-box;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.toolbar { 
+  display: flex; 
+  gap: var(--gap); 
+}
+
+.toolbar button { 
+  padding: 8px 14px; 
+  border-radius: 10px; 
+  border: 2px solid transparent;
+  background: linear-gradient(var(--vscode-button-background), var(--vscode-button-background)) padding-box,
+              linear-gradient(135deg, rgba(139, 92, 246, 0.4), rgba(236, 72, 153, 0.4)) border-box;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.toolbar button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.toolbar button:hover::before {
+  left: 100%;
+}
+
+.toolbar button:hover { 
+  background: linear-gradient(var(--vscode-button-hoverBackground), var(--vscode-button-hoverBackground)) padding-box,
+              linear-gradient(135deg, #8B5CF6, #EC4899) border-box;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+  transform: translateY(-2px);
+}
+
+.results { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: var(--gap); 
+}
+
+.card { 
+  border: 2px solid transparent;
+  border-radius: 14px; 
+  padding: 12px; 
+  background: 
+    linear-gradient(var(--vscode-editor-background), var(--vscode-editor-background)) padding-box,
+    linear-gradient(135deg, 
+      rgba(139, 92, 246, 0.3) 0%, 
+      rgba(236, 72, 153, 0.3) 50%, 
+      rgba(6, 182, 212, 0.3) 100%
+    ) border-box;
+  box-shadow: var(--card-glow);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card:hover { 
+  border-color: transparent;
+  background: 
+    linear-gradient(var(--vscode-editor-background), var(--vscode-editor-background)) padding-box,
+    linear-gradient(135deg, 
+      rgba(139, 92, 246, 0.6) 0%, 
+      rgba(236, 72, 153, 0.6) 50%, 
+      rgba(6, 182, 212, 0.6) 100%
+    ) border-box;
+  box-shadow: var(--card-hover-glow);
+  transform: translateY(-3px) scale(1.01);
+}
+
+.card .top { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 8px; 
+}
+
+.variant { 
+  font-size: 13px; 
+  line-height: 1.5; 
+  word-break: break-word; 
+  user-select: text;
+  padding: 4px 0;
+}
+
+.meta { 
+  font-size: 11px; 
+  opacity: 0.75; 
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.copy, .insert { 
+  padding: 6px 12px; 
+  border-radius: 10px; 
+  border: 2px solid transparent;
+  background: linear-gradient(var(--vscode-button-secondaryBackground, #444), var(--vscode-button-secondaryBackground, #444)) padding-box,
+              linear-gradient(135deg, rgba(139, 92, 246, 0.5), rgba(236, 72, 153, 0.5)) border-box;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.copy::before, .insert::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.5s, height 0.5s;
+}
+
+.copy:active::before, .insert:active::before {
+  width: 200px;
+  height: 200px;
+}
+
+.copy:hover, .insert:hover { 
+  background: linear-gradient(135deg, #8B5CF6, #EC4899) padding-box,
+              linear-gradient(135deg, #8B5CF6, #EC4899) border-box;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.5);
+  transform: scale(1.05);
+}
+
+footer { 
+  font-size: 11px; 
+  opacity: 0.7;
+  text-align: center;
+  padding: 8px 0;
+}

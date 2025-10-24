@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "npm",
+      "script": "compile",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$tsc"],
+      "detail": "Compile TypeScript to dist via tsc"
+    },
+    {
+      "label": "watch",
+      "type": "npm",
+      "script": "watch",
+      "problemMatcher": ["$tsc-watch"],
+      "detail": "Watch TypeScript and recompile on change"
+    },
+    {
+      "label": "package vsix",
+      "type": "npm",
+      "script": "package",
+      "group": "none",
+      "detail": "Create VSIX using vsce (via npm run package)"
+    }
+  ]
+}
