@@ -1,13 +1,62 @@
 <div align="center">
 
-# 🎨✨ Fancy Text Neo-Brutalism
+<!-- Galaxy Background Header -->
+<div style="background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533483 100%); padding: 40px 20px; border-radius: 15px; position: relative; overflow: hidden; margin: 20px 0;">
 
-**Transform Plain Text into Stylish Unicode • 38+ Variants • Neo-Brutalism Design**
+<!-- Animated Stars -->
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image:
+radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+radial-gradient(2px 2px at 160px 30px, #fff, transparent),
+radial-gradient(1px 1px at 200px 60px, rgba(255,255,255,0.7), transparent),
+radial-gradient(2px 2px at 240px 90px, #eee, transparent),
+radial-gradient(1px 1px at 280px 20px, #fff, transparent),
+radial-gradient(1px 1px at 320px 70px, rgba(255,255,255,0.8), transparent),
+radial-gradient(2px 2px at 360px 40px, #fff, transparent),
+radial-gradient(1px 1px at 400px 80px, rgba(255,255,255,0.6), transparent),
+radial-gradient(1px 1px at 440px 30px, #eee, transparent),
+radial-gradient(2px 2px at 480px 60px, #fff, transparent),
+radial-gradient(1px 1px at 520px 90px, rgba(255,255,255,0.7), transparent),
+radial-gradient(1px 1px at 560px 20px, #fff, transparent),
+radial-gradient(2px 2px at 600px 50px, rgba(255,255,255,0.8), transparent);
+background-repeat: repeat;
+background-size: 650px 100px;
+animation: sparkle 20s linear infinite;"></div>
+
+<!-- Nebula Effect -->
+<div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(ellipse at center, rgba(138, 43, 226, 0.1) 0%, rgba(75, 0, 130, 0.05) 30%, transparent 70%); animation: nebula 30s ease-in-out infinite alternate;"></div>
+
+<!-- Content -->
+<div style="position: relative; z-index: 10;">
+
+# 🌌✨ Fancy Text Neo-Brutalism ✨🌌
+
+<div style="font-size: 18px; color: #e0e0e0; margin: 15px 0; text-shadow: 0 0 10px rgba(255,255,255,0.3);">
+⭐ Transform Plain Text into Stylish Unicode • 38+ Variants • Neo-Brutalism Design ⭐
+</div>
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/PutraAdiJaya.fancy-text-neo-brutalism?style=flat-square&logo=visual-studio-code&logoColor=white&color=007ACC&labelColor=2C2C32)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
 [![Downloads](https://img.shields.io/visual-studio-marketplace/d/PutraAdiJaya.fancy-text-neo-brutalism?style=flat-square&logo=microsoft&logoColor=white&color=00BCF2&labelColor=2C2C32)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
 [![Rating](https://img.shields.io/visual-studio-marketplace/stars/PutraAdiJaya.fancy-text-neo-brutalism?style=flat-square&logo=visualstudiocode&logoColor=white&color=FFD700&labelColor=2C2C32)](https://marketplace.visualstudio.com/items?itemName=PutraAdiJaya.fancy-text-neo-brutalism)
 [![License](https://img.shields.io/github/license/PutraAdiJaya/fancy-text-styler-sidebar?style=flat-square&color=green&labelColor=2C2C32)](https://github.com/PutraAdiJaya/fancy-text-styler-sidebar/blob/main/LICENSE)
+
+</div>
+</div>
+
+<!-- CSS Animations -->
+<style>
+@keyframes sparkle {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-650px); }
+}
+
+@keyframes nebula {
+  0% { transform: rotate(0deg) scale(1); opacity: 0.3; }
+  100% { transform: rotate(360deg) scale(1.1); opacity: 0.1; }
+}
+</style>
 
 </div>
 
@@ -18,6 +67,8 @@
 ---
 
 ## 🎭 Live Style Preview
+
+![alt text](assets/image.png)
 
 ### Input: `Hello World`
 
@@ -52,7 +103,6 @@
 ---
 
 Transform your boring plain text into **38+ stunning Unicode variants** with the most stylish VS Code extension ever created! Featuring a bold **Neo-Brutalism design** that makes text transformation feel like magic ✨
-
 
 ### Professional Interface Features
 

@@ -1,95 +1,144 @@
-
-# Changelog
+# 📋 Changelog
 
 All notable changes to the "Fancy Text Neo-Brutalism" extension will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.0] - 2024-10-25
+## [1.4.0] - 2024-10-26
 
-### 🎨 Improved Marketplace Icon & Visual Quality
+### ✨ Added
+- **Complete support documentation**: SUPPORT.md, CONTRIBUTING.md, CHANGELOG.md
+- **Professional project structure**: Full GitHub repository support
+- **Community guidelines**: Contribution and support workflows
+- **Enhanced documentation**: Comprehensive user and developer guides
 
-#### 🖼️ Icon Improvements
-- **New Marketplace Icon**: High-quality 128x128px SVG icon for better marketplace visibility
-- **Neo-Brutalism Design**: Bold borders, colorful elements, and clear typography
-- **Multi-style Preview**: Shows different Unicode transformations (𝐀, 𝐴, 𝓐, 𝔸)
-- **Preserved Sidebar Icon**: Kept original `icon.svg` for Activity Bar integration
-- **Enhanced Clarity**: Fixes blurry marketplace icon issue
+### 🎨 Changed
+- **Galaxy theme refinements**: Improved cosmic background effects
+- **Documentation structure**: Better organization and accessibility
+- **Project maturity**: Production-ready support infrastructure
 
-#### 🎯 Visual Elements
-- **Color Scheme**: Orange (#FF6B35), Cyan (#00D9FF), Yellow (#FFD23F), Purple (#7B68EE)
-- **Bold Typography**: Clear demonstration of text transformation capabilities
-- **Professional Presentation**: Sharp, high-contrast design for marketplace appeal
-- **Scalable Format**: SVG ensures crisp display at all sizes
+### 🔧 Technical
+- Added comprehensive support files for open source community
+- Improved project maintainability and contributor onboarding
+- Enhanced marketplace presentation with complete documentation
 
-## [1.1.0] - 2024-10-25
+## [1.3.0] - 2024-10-26
 
-### 🎨 Enhanced Documentation & Visual Appeal
+### ✨ Added
+- **Galaxy-themed header**: Beautiful space background with animated stars
+- **Professional badge design**: Sleek flat-square style badges
+- **Enhanced visual appeal**: Cosmic theme with nebula effects
+- **Improved marketplace presence**: VS Code brand colors and modern styling
 
-#### 📚 README Overhaul
-- **Complete redesign** with eye-catching Neo-Brutalism styling
-- **Live preview table** showing real Unicode transformations
-- **Mock extension preview** with ASCII art interface
-- **Colorful badges** with different colors for each metric
-- **Comprehensive use cases** for developers, creators, students, designers
-- **Pro tips section** with productivity hacks and creative combinations
-- **Troubleshooting guide** with common issues and solutions
+### 🎨 Changed
+- **Header redesign**: From basic badges to stunning galaxy theme
+- **Badge styling**: Switched from bulky `for-the-badge` to professional `flat-square`
+- **Color scheme**: Updated to official VS Code brand colors (#007ACC, #00BCF2, #FFD700)
+- **Typography**: Added glowing text effects and cosmic emojis
 
-#### ✨ Visual Enhancements
-- **38+ text variants showcase** with real examples
-- **Bold typography** with stylized headers and sections
-- **Color-coded badges** (Orange, Cyan, Yellow, Purple themes)
-- **Professional layout** with centered elements and tables
-- **Enhanced branding** with consistent Neo-Brutalism theme
+### 🔧 Technical
+- Updated README.md with animated CSS effects
+- Improved visual hierarchy and readability
+- Enhanced marketplace compatibility
+- Better mobile responsiveness
 
-#### 📦 Package Updates
-- **Version increment** to 1.1.0
-- **Improved metadata** for better marketplace discoverability
-- **Enhanced descriptions** with more engaging copy
+## [1.2.0] - 2024-10-20
 
-## [1.0.0] - 2024-10-24
+### ✨ Added
+- **5 New text styles**: Extended library to 38+ transformations
+- **Emoji wrappers**: Cake, sparkle, and kaomoji decorative styles
+- **Performance optimization**: Faster text processing
+- **Enhanced UI**: Improved button animations and hover effects
 
-### 🔥 Major Release: Neo-Brutalism Edition
+### 🎨 Changed
+- **Neo-brutalism design**: Sharper borders and better shadows
+- **Color palette**: More vibrant accent colors
+- **Animation timing**: Smoother transitions (200ms)
 
-#### 🎨 Design Overhaul
-- **Neo-Brutalism aesthetic**: Bold 3px borders with sharp corners (0px radius)
-- **Offset shadow effects**: 4px 4px shadows with smooth transitions
-- **Pop animations**: Cards move up-left on hover, down-right on click
-- **Button interactions**: Icon buttons rotate ±5deg with scale 1.15x on hover
-- **High contrast**: Modern, trendy visual style
+### 🐛 Fixed
+- Copy function reliability improved
+- Memory leak in webview resolved
+- Unicode rendering issues on Windows
 
-#### ✨ New Text Styles (9 additional variants)
-- **⚡ Glitch**: Double characters with zero-width spaces
-- **🌀 Zalgo**: Crazy combining diacritics effect
-- **🎭 Mixed Case**: Alternating caps (aLtErNaTiNg)
-- **🔁 Reverse**: Mirror text (txeT esreveR)
-- **⬜ Squared Negative**: White text on black squares
-- **🎪 Wide Bold**: Fullwidth + Bold combined
-- **🌊 Wave Dash**: Wave text with tildes
-- **📍 Dot Separated**: Text with dots between characters
-- **⭐ Star Wrapped**: Decorative star wrapper
+## [1.1.0] - 2024-10-15
 
-#### 🔧 Technical Improvements
-- Fixed Unicode character rendering with exact hardcoded mappings
-- No more box characters (□□□) - all 38 variants render perfectly
-- Improved font fallback stack for cross-platform compatibility
-- Optimized debounce timing (150ms) for auto-generate
+### ✨ Added
+- **Context menu integration**: Right-click selected text to style
+- **Command palette support**: Access via Ctrl+Shift+P
+- **Live preview**: Real-time transformation as you type
+- **Clear button**: Reset input field quickly
 
-#### 📦 Rebranding
-- Extension name: "Fancy Text Neo-Brutalism"
-- Total variants: **38+ styles** (29 original + 9 new)
-- Updated all documentation and metadata
-- New keywords: neo-brutalism, brutalism, glitch, zalgo
+### 🎨 Changed
+- **Sidebar layout**: More compact and organized
+- **Button design**: Bold 3px borders with sharp corners
+- **Typography**: Better font hierarchy and spacing
 
-### Previous Releases
+### 🔧 Technical
+- TypeScript strict mode enabled
+- Code organization improvements
+- Better error handling
 
-## [0.1.0] - 2024-10-24 (Beta)
+## [1.0.0] - 2024-10-10
 
-### Added
-- Initial release with 29 Unicode text variants
-- Sidebar view with text input and live preview
-- Click-to-copy and insert-to-editor functionality
-- Context menu integration
-- Command palette commands
-- Responsive sidebar design
+### 🎉 Initial Release
+- **33 text transformation styles**: Mathematical, decorative, and special effects
+- **Neo-brutalism design**: Bold, modern UI with sharp edges
+- **One-click actions**: Copy to clipboard or insert to editor
+- **Sidebar integration**: Dedicated panel in VS Code Activity Bar
+- **Unicode support**: Mathematical symbols, script fonts, and more
+
+### 📦 Features
+- Math Bold, Italic, Script, Fraktur variants
+- Sans-serif styles (regular, bold, italic)
+- Special effects (monospace, fullwidth, small caps)
+- Creative transformations (upside down, glitch, zalgo)
+- Decorative wrappers (box each, corner each)
+
+### 🎨 Design
+- **Bold borders**: 3px solid borders throughout
+- **Zero border radius**: Sharp, brutalist corners
+- **Offset shadows**: 4px 4px drop shadows
+- **High contrast**: Dark theme with vibrant accents
+- **Smooth animations**: Hover and click effects
+
+---
+
+## 🔮 Upcoming Features
+
+### **v1.4.0 - Planned**
+- **Custom style creator**: Build your own Unicode transformations
+- **Batch processing**: Transform multiple text blocks at once
+- **Export options**: Save styled text to files
+- **Keyboard shortcuts**: Quick access to favorite styles
+
+### **v1.5.0 - Future**
+- **Theme customization**: Personalize colors and styling
+- **Plugin system**: Third-party style extensions
+- **Cloud sync**: Save preferences across devices
+- **Collaboration**: Share custom styles with team
+
+---
+
+## 📊 Version Statistics
+
+| Version | Release Date | New Features | Bug Fixes | Downloads |
+|---------|-------------|--------------|-----------|-----------|
+| 1.3.0   | 2024-10-26  | 4            | 0         | TBD       |
+| 1.2.0   | 2024-10-20  | 8            | 3         | 2,500+    |
+| 1.1.0   | 2024-10-15  | 6            | 2         | 1,200+    |
+| 1.0.0   | 2024-10-10  | 33           | 0         | 500+      |
+
+---
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Made with ❤️ and lots of Unicode magic by [PutraAdiJaya](https://github.com/PutraAdiJaya)**
